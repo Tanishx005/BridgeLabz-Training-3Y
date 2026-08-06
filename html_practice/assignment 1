@@ -1,0 +1,64 @@
+Web Development Assignment 
+
+ANSWER 1.  Frontend, Backend, and Full-Stack
+
+-   Frontend: Builds the user interface using HTML, CSS, and JavaScript.
+-   Backend: Handles server logic, databases, and APIs.
+-   Full-Stack: Works on both frontend and backend. Example: In Amazon,
+    the shopping page is frontend, order processing is backend, and a
+    full-stack developer can build both.
+
+ANSWER 2.  Client-Server Model
+	   
+
+	
+ANSWER 3.  How a Browser Displays a Webpage
+
+     firstly User enters a URL. then , Browser sends an HTTP request.
+
+     Server processes the request. Database is accessed if needed.
+
+     Server sends HTML, CSS, and JavaScript. Browser renders the webpage.
+
+ANSWER 4. Tools for Web Development
+
+-   VS Code: Code editor
+-   Chrome: Test webpages
+-   Node.js: Runs JavaScript
+-   npm: Manages packages
+-   Git: Version control
+-   GitHub: Stores code online
+-   Live Server: Auto-refresh webpages
+
+ANSWER 5.  What is a Web Server? A web server stores website files and sends
+    them to users through HTTP/HTTPS. Examples: Apache, Nginx, IIS,
+    LiteSpeed, Tomcat.
+
+ANSWER 6.  Roles in a Project
+
+-   Frontend Developer: Creates the user interface.
+-   Backend Developer: Develops server-side logic and APIs.
+-   Database Administrator (DBA): Manages and secures databases.
+
+ANSWER 7.  VS Code Setup
+
+-   Install VS Code.
+-   Install Live Server and Prettier extensions.
+-   Create index.html, style.css, and script.js.
+-   Attach a screenshot of your setup.
+
+ANSWER 8.  Static vs Dynamic Websites
+
+-   Static: Fixed content. Example: Portfolio website.
+-   Dynamic: Content changes using databases. Example: Amazon or
+    Facebook.
+
+ANSWER 9.  Five Web Browsers
+
+-   Google Chrome – Blink
+-   Microsoft Edge – Blink
+-   Mozilla Firefox – Gecko
+-   Safari – WebKit
+-   Opera – Blink
+
+ANSWER 10. Basic Web Architecture
