@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+    <form action="https://www.google.com/search" method="get">
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="q" placeholder="Enter your search query">
+        <input type="submit" value="Search">
+    </form>
+
+<h1>---------------------------------------------------------------------------</h1> 
+
+
+
+</head>
+<body>
+    <h1>HTML Forms Example</h1>
+    <form action="https://www.example.com/submit" method="post"> 
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+
+<h1>---------------------------------------------------------------------------</h1>
+
+
+    <form action="/register" method="post">
+        <label for="username">Name:</label>
+        <input type="text" id="name" name="username" required><br><br>
+
+        <label for="password">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender " value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <lable for="date" >Date of Birth:</lable>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <label for="file submition" >File Submition:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="dropdown">Branch:</label>
+        <select name="option" id="dropdown">
+            <option value="option1">CSE</option>
+            <option value="option2">Civil</option>
+            <option value="option3">Electrical</option>
+            <option value="option4">Mechanical</option>
+            <option value="option5">Electronics</option>   
+            
+        </select> <br><br>
+
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree">
+        <label for="checkbox">I agree to the terms and conditions</label><br><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="subscribe">
+        <label for="checkbox2">Subscribe to newsletter</label><br><br>
+        
+        <button type="reset">Reset</button>
+        <input type="submit" value="Submit">
+    
+</body>
+</html>
