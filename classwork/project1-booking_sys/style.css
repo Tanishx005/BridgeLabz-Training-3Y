@@ -5,10 +5,10 @@
 }
 
 :root {
-  --bg: #0b0b12;
+  --bg: #ffffff;
   --surface: #14141e;
   --surface-light: #1c1c28;
-  --text: #f7f7fb;
+  --text: #000000;
   --muted: #a4a4b3;
   --accent: #ff385c;
   --accent-dark: #df2347;
@@ -184,7 +184,7 @@ button {
   border: 0;
   outline: 0;
   padding: 13px 16px;
-  color: #222;
+  color: #e7e3e3;
   background: transparent;
 }
 
@@ -261,12 +261,13 @@ button {
   font-weight: 900;
   line-height: 0.95;
   letter-spacing: -1px;
-  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 3px 15px rgba(249, 248, 248, 0.5);
 }
 
 .poster-one {
-  background: radial-gradient(circle at 70% 25%, #6750d8, transparent 25%),
-              linear-gradient(145deg, #14142d, #343c83);
+  width: 100%;
+  height: 100%;
+ 
 }
 
 .poster-two {
