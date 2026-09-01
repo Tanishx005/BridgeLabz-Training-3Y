@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieBook — Movie Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">Movie<span>Book</span></a>
+
+    <nav class="nav-links">
+      <a href="#movies">Movies</a>
+      <a href="#cinemas">Cinemas</a>
+      <a href="#offers">Offers</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="location">📍 Mathura</button>
+      <button class="login-btn">Sign In</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR MOVIE NIGHT STARTS HERE</p>
+        <h1>Find a movie.<br><span>Book a seat.</span></h1>
+        <p class="hero-text">
+          Discover the latest movies, choose your favourite cinema,
+          and book your seats in just a few clicks.
+        </p>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search for movies, cinemas..." aria-label="Search">
+          <button>Search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="movies">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">NOW SHOWING</p>
+          <h2>Popular movies</h2>
+        </div>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+
+      <div class="movie-grid">
+        <article class="movie-card">
+          <div class="poster poster-one"><span>GALAXY<br>RISING</span></div>
+          <div class="movie-info">
+            <h3>Galaxy Rising</h3>
+            <p>Action • Sci-Fi • 2h 18m</p>
+            <div class="card-bottom">
+              <span class="rating">★ 8.7</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <div class="poster poster-two"><span>THE<br>LAST NOTE</span></div>
+          <div class="movie-info">
+            <h3>The Last Note</h3>
+            <p>Drama • Romance • 2h 05m</p>
+            <div class="card-bottom">
+              <span class="rating">★ 8.2</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <div class="poster poster-three"><span>SHADOW<br>PROTOCOL</span></div>
+          <div class="movie-info">
+            <h3>Shadow Protocol</h3>
+            <p>Thriller • Action • 2h 11m</p>
+            <div class="card-bottom">
+              <span class="rating">★ 8.5</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <div class="poster poster-four"><span>SUMMER<br>STORIES</span></div>
+          <div class="movie-info">
+            <h3>Summer Stories</h3>
+            <p>Comedy • Family • 1h 52m</p>
+            <div class="card-bottom">
+              <span class="rating">★ 7.9</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="booking-strip" id="cinemas">
+      <div>
+        <p class="eyebrow">QUICK BOOKING</p>
+        <h2>Ready for your next movie?</h2>
+        <p>Pick a city, cinema and showtime to get started.</p>
+      </div>
+
+      <div class="booking-controls">
+        <select aria-label="Select city">
+          <option>Select city</option>
+          <option>Mathura</option>
+          <option>Agra</option>
+          <option>Delhi</option>
+        </select>
+
+        <select aria-label="Select date">
+          <option>Select date</option>
+          <option>Today</option>
+          <option>Tomorrow</option>
+          <option>This weekend</option>
+        </select>
+
+        <button>Find Shows</button>
+      </div>
+    </section>
+
+    <section class="offers section" id="offers">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SPECIAL OFFERS</p>
+          <h2>More reasons to book</h2>
+        </div>
+      </div>
+
+      <div class="offer-grid">
+        <div class="offer-card">
+          <span class="offer-icon">🎟️</span>
+          <div>
+            <h3>Easy booking</h3>
+            <p>Choose your seats and confirm your tickets without the queue.</p>
+          </div>
+        </div>
+        <div class="offer-card">
+          <span class="offer-icon">🍿</span>
+          <div>
+            <h3>Snacks & more</h3>
+            <p>Make movie night better with food and beverage add-ons.</p>
+          </div>
+        </div>
+        <div class="offer-card">
+          <span class="offer-icon">💳</span>
+          <div>
+            <h3>Great deals</h3>
+            <p>Save more with member discounts and selected payment offers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">Movie<span>Book</span></div>
+    <p>© 2026 MovieBook. A basic movie booking project.</p>
+  </footer>
+</body>
+</html>
