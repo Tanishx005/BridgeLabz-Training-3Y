@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Web Architecture Flow</title>
+</head>
+<body>
+    <!-- Q10 -->
+    <h1>Client → Server → Database → APIs</h1>
+    <pre>
++------------------+
+|      CLIENT      |
+| Browser / App    |
++--------+---------+
+         | HTTP/HTTPS Request
+         v
++------------------+
+|      SERVER      |
+| Web/App Server   |
++----+---------+---+
+     |         |
+     |         | API Call
+     v         v
++---------+  +---------+
+|DATABASE |  |  APIs   |
++---------+  +----+----+
+     ^            |
+     +------------+
+       Data/Response
+         |
+         v
++------------------+
+|      CLIENT      |
+| Displays Result  |
++------------------+
+    </pre>
+</body>
+</html>
