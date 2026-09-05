@@ -1,0 +1,16 @@
+/* Assignment 5 - Question 7 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #e9eef5; color: #172033; }
+.contact-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem; }
+.contact-form { width: min(600px, 100%); padding: 2rem; background: white; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+.contact-form label { display: block; margin: 1rem 0 .4rem; }
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: .9rem;
+    border: 2px solid #b6c0ce;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.08);
+    font: inherit;
+}
+.contact-form input:focus, .contact-form textarea:focus { outline: none; border-color: #172033; }
+button { margin-top: 1.2rem; padding: .9rem 1.5rem; border: 0; border-radius: 8px; background: #172033; color: white; cursor: pointer; }

@@ -1,0 +1,21 @@
+/* Assignment 5 - Question 5 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #172033; }
+.pricing { width: 90%; margin: 4rem auto; text-align: center; }
+.plans { display: flex; gap: 1.5rem; align-items: stretch; }
+.plan {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 2px solid #9aa8bb;
+    border-radius: 14px;
+    background: white;
+    transition: transform .25s ease, background-color .25s ease;
+}
+.plan:hover { transform: scale(1.04); background-color: #e5edff; }
+.plan.popular { border: 3px solid #172033; }
+.price { font-size: 2rem; font-weight: 700; }
+.plan ul { text-align: left; line-height: 2; flex: 1; }
+.plan a { display: inline-block; padding: .8rem 1rem; border-radius: 8px; background: #172033; color: white; text-decoration: none; }
+@media (max-width: 700px) { .plans { flex-direction: column; } }

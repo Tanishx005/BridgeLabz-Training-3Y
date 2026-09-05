@@ -1,0 +1,20 @@
+/* Assignment 5 - Question 2 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, serif; color: #172033; background: #f6f3ed; }
+header, nav, footer { padding: 1.5rem; text-align: center; }
+nav { background: #172033; }
+nav a { color: white; text-decoration: none; margin: 0 1rem; }
+section { min-height: 70vh; width: 100%; padding: 6rem 8%; margin: 0; border-bottom: 3px solid #172033; }
+.linear { background: linear-gradient(120deg, #dbeafe, #fef3c7); }
+.radial { background: radial-gradient(circle, #fef3c7, #dbeafe); }
+.parallax-one, .parallax-two {
+    background-image: url('https://picsum.photos/seed/city/1600/900');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 0 2px 5px #000;
+}
+.parallax-two { background-image: url('https://picsum.photos/seed/capital/1600/900'); }
+h2 { font-size: 2.4rem; font-weight: 700; }
+p { font-size: 1.1rem; line-height: 1.8; }

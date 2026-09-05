@@ -1,0 +1,17 @@
+/* Assignment 5 - Question 4 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, serif; line-height: 1.8; color: #202938; background: #f7f7f7; }
+header { padding: 3rem 8% 1rem; background: #e5e7eb; }
+.subheading { padding: 0 8% 1rem; }
+article { max-width: 900px; margin: auto; padding: 2rem 8%; }
+article p { margin: 0 0 1.5rem; }
+article p::first-letter { font-size: 2.2em; font-weight: 700; }
+article p::first-line { font-weight: 700; }
+mark { background: #facc15; padding: .1em .25em; }
+blockquote {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-left: 6px solid #172033;
+    background: #e5e7eb;
+    font-style: italic;
+}

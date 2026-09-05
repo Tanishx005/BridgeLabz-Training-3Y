@@ -1,0 +1,19 @@
+/* Assignment 5 - Question 3 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2f7; color: #172033; }
+.team { width: 90%; margin: 3rem auto; }
+.cards { display: flex; gap: 1.5rem; align-items: stretch; }
+.card {
+    flex: 1;
+    padding: 2rem;
+    margin: .5rem;
+    border: 2px solid #9aa8bb;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+    background: white;
+}
+.card.lead { background: #e4ecff; border: 3px dashed #172033; }
+.card h3 { margin-bottom: 1rem; }
+@media (max-width: 600px) {
+    .cards { flex-direction: column; }
+}

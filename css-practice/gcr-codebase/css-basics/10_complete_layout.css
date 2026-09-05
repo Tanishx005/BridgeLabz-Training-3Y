@@ -1,0 +1,22 @@
+/* Assignment 5 - Question 10 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #172033; }
+.header { position: sticky; top: 0; z-index: 10; padding: 1rem; background: rgba(23,32,51,.96); }
+.header nav { display: flex; justify-content: center; gap: 1.5rem; }
+.header a { color: white; text-decoration: none; }
+.hero { position: relative; min-height: 80vh; background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('https://picsum.photos/seed/hero/1600/900') center/cover; display: flex; align-items: center; justify-content: center; }
+.hero-content { position: relative; text-align: center; color: white; padding: 2rem; border: 2px solid white; outline: 4px solid rgba(255,255,255,.25); }
+.about { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding: 6rem 8%; background: #eef2f7; }
+.about img { width: 100%; border-radius: 12px; }
+.services { padding: 6rem 8%; background: linear-gradient(135deg, #eef2f7, #dce6f4); }
+.service-grid { display: flex; gap: 1.5rem; }
+.service-grid article { flex: 1; padding: 3rem 1rem; text-align: center; background: white; border: 2px solid #9aa8bb; box-shadow: 0 8px 20px rgba(0,0,0,.12); }
+.contact { padding: 6rem 8%; background: #f7f7f7; }
+.contact form { max-width: 600px; display: flex; flex-direction: column; gap: 1rem; }
+.contact input, .contact textarea { padding: 1rem; border: 2px solid #aeb8c6; border-radius: 8px; font: inherit; }
+.contact button { width: fit-content; padding: .9rem 1.5rem; border: 0; border-radius: 8px; background: #172033; color: white; }
+footer { position: relative; padding: 1.5rem; text-align: center; background: #172033; color: white; }
+@media (max-width: 700px) {
+    .about { grid-template-columns: 1fr; }
+    .service-grid { flex-direction: column; }
+}
