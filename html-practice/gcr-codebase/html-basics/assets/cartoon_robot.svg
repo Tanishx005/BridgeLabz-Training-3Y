@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+<title>Friendly Cartoon Robot</title><rect width="500" height="350" fill="white"/>
+<rect x="145" y="95" width="210" height="150" rx="28" fill="#78b7e8" stroke="#222" stroke-width="6"/>
+<circle cx="205" cy="160" r="18" fill="white" stroke="#222" stroke-width="5"/><circle cx="295" cy="160" r="18" fill="white" stroke="#222" stroke-width="5"/>
+<circle cx="205" cy="160" r="7"/><circle cx="295" cy="160" r="7"/>
+<path d="M205 205 Q250 235 295 205" fill="none" stroke="#222" stroke-width="6"/>
+<line x1="250" y1="95" x2="250" y2="55" stroke="#222" stroke-width="6"/><circle cx="250" cy="45" r="12" fill="#f2c94c" stroke="#222" stroke-width="5"/>
+<rect x="105" y="135" width="40" height="65" rx="18" fill="#78b7e8" stroke="#222" stroke-width="6"/><rect x="355" y="135" width="40" height="65" rx="18" fill="#78b7e8" stroke="#222" stroke-width="6"/>
+<rect x="175" y="245" width="50" height="55" rx="10" fill="#78b7e8" stroke="#222" stroke-width="6"/><rect x="275" y="245" width="50" height="55" rx="10" fill="#78b7e8" stroke="#222" stroke-width="6"/>
+</svg>
