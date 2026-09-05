@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Form</title>
+</head>
+<body>
+    <!-- Assignment 3 - Question 15 -->
+    <h1>Payment Form</h1>
+    <form action="#" method="post">
+        <label for="cardholder-name">Cardholder Name:</label>
+        <input type="text" id="cardholder-name" name="cardholder_name" required>
+        <br><br>
+
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card_number" inputmode="numeric" required>
+        <br><br>
+
+        <label for="expiry-date">Expiry Date:</label>
+        <input type="text" id="expiry-date" name="expiry_date" placeholder="MM/YY" required>
+        <br><br>
+
+        <label for="cvv">CVV:</label>
+        <input type="password" id="cvv" name="cvv" inputmode="numeric" required>
+        <br><br>
+
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>
