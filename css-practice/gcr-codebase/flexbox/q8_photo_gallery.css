@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 30px; font-family: Arial, sans-serif; text-align: center; background: #f1f5f9; }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+figure:hover img { transform: scale(1.06); }
+figcaption { padding: 14px; font-weight: bold; }
