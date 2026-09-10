@@ -1,0 +1,29 @@
+/* Nested layers visually represent margin, border, padding and content. */
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; text-align: center; background: #f8fafc; padding: 35px; }
+.demo { display: flex; justify-content: center; align-items: center; min-height: 430px; }
+.margin-layer {
+  padding: 55px;
+  background: #fef3c7;
+  outline: 2px dashed #d97706;
+}
+.border-layer {
+  padding: 25px;
+  border: 12px solid #2563eb;
+  background: #dbeafe;
+}
+.padding-layer {
+  padding: 40px;
+  background: #dcfce7;
+}
+.content-layer {
+  width: 240px;
+  min-height: 130px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  outline: 2px solid #16a34a;
+}
+.notes { max-width: 700px; margin: auto; text-align: left; }

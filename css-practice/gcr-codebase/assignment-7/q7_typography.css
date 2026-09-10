@@ -1,0 +1,37 @@
+/* Typography demonstration: families, weights, sizes and spacing. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+article {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background: white;
+  line-height: 1.8;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 42px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.lead { font-size: 21px; font-weight: 600; }
+mark { background: #fde68a; color: #111827; padding: 2px 5px; }
+strong { color: #1d4ed8; }
+em { color: #7c3aed; }
+.quote {
+  margin-top: 30px;
+  padding: 20px;
+  border-left: 5px solid #2563eb;
+  font-size: 20px;
+  font-style: italic;
+}
+article p::first-letter {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+article p::first-line { letter-spacing: .3px; }

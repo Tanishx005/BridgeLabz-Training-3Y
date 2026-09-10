@@ -1,0 +1,36 @@
+/* Linear and radial gradients with a fixed header/footer. */
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; font-family: Arial, sans-serif; }
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 10;
+  padding: 18px;
+  text-align: center;
+  background: rgba(15,23,42,.95);
+  color: white;
+}
+main { padding-top: 85px; padding-bottom: 70px; }
+main section {
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.linear { background: linear-gradient(120deg, #2563eb, #7c3aed, #db2777); }
+.radial {
+  background: radial-gradient(circle at center, #22c55e, #0f766e, #0f172a);
+  background-attachment: fixed;
+}
+footer {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  padding: 18px;
+  text-align: center;
+  background: rgba(15,23,42,.95);
+  color: white;
+}

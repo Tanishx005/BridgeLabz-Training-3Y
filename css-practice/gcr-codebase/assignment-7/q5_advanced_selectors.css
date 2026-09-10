@@ -1,0 +1,25 @@
+/* Attribute selectors: target elements based on HTML attributes. */
+input[type="text"] { border: 2px solid #2563eb; }
+input[type="email"] { border: 2px solid #16a34a; }
+a[href^="https"] { color: #7c3aed; }
+
+/* Pseudo-classes: style elements in a particular state or position. */
+button:hover { background: #2563eb; color: white; }
+input:focus { outline: 3px solid #f59e0b; outline-offset: 3px; }
+.items li:nth-child(odd) { background: #f1f5f9; }
+
+/* Pseudo-elements: add generated content before/after an element. */
+.parent p::before { content: "→ "; font-weight: bold; }
+.parent p::after { content: " ✓"; color: #16a34a; }
+
+/* Child, adjacent sibling, general sibling and descendant combinators. */
+.parent > p { padding: 8px; }       /* Direct child */
+.parent > p + p { font-weight: bold; } /* Adjacent sibling */
+.parent > p ~ div { border-top: 2px solid #cbd5e1; } /* General sibling */
+.parent p { margin: 12px 0; }       /* Descendant */
+
+/* Common element styling. */
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+.content { max-width: 800px; margin: 50px auto; padding: 30px; }
+.items { display: grid; gap: 14px; list-style: none; padding: 0; }
+input, button { padding: 12px; border-radius: 8px; border: 1px solid #94a3b8; }

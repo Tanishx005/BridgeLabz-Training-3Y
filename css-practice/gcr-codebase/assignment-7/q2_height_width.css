@@ -1,0 +1,27 @@
+/* Height, width, min/max dimensions and overflow. */
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; background: #e2e8f0; }
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 14px;
+  color: white;
+  overflow: auto;
+}
+.small { width: 25vw; height: 20vh; min-width: 180px; background: #2563eb; }
+.medium { width: 360px; min-height: 220px; max-width: 90vw; background: #7c3aed; }
+.large { width: 300px; height: 180px; max-width: 90vw; background: #0f766e; overflow: auto; }
+@media (max-width: 650px) { .small, .medium, .large { width: 90vw; } }
