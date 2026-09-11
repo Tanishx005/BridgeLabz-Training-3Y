@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; justify-content: center; align-items: center; font-family: Arial, sans-serif; background: #e2e8f0; }
+main { width: min(100%, 900px); text-align: center; }
+.effects { display: flex; justify-content: space-evenly; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 40px; }
+.effects button, .effects a, .card { padding: 16px 24px; border-radius: 12px; border: 2px solid #2563eb; background: white; color: #1e3a8a; text-decoration: none; cursor: pointer; box-shadow: 0 4px 10px #0002; transition: transform .3s ease, background .3s ease, color .3s ease, box-shadow .3s ease; }
+.effects button:hover, .effects a:hover, .card:hover { transform: scale(1.08); background: #2563eb; color: white; box-shadow: 0 10px 20px #0003; }
+.effects button:focus, .effects a:focus { outline: 3px solid #f59e0b; outline-offset: 3px; }
+.special:active { transform: scale(.95); background: #dc2626; }

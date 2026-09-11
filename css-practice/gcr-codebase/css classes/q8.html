@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Sizing Comparison</title>
+  <link rel="stylesheet" href="q8.css">
+</head>
+<body>
+  <main>
+    <h1>Box-Sizing Comparison</h1>
+    <section class="comparison">
+      <article class="box content-box">
+        <h2>Default: content-box</h2>
+        <p>Width applies to content. Padding and border are added to the total size.</p>
+        <strong>Width: 300px + padding + border</strong>
+      </article>
+      <article class="box border-box">
+        <h2>border-box</h2>
+        <p>Width includes content, padding, and border, keeping the total size at 300px.</p>
+        <strong>Width: 300px total</strong>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

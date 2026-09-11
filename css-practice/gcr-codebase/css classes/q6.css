@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; background: #f8fafc; }
+.animation-page { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.stage { width: min(90%, 800px); height: 330px; position: relative; margin-top: 20px; border: 2px dashed #94a3b8; overflow: hidden; }
+.moving-box { position: absolute; left: 10px; top: 40px; padding: 20px; border-radius: 10px; background: #2563eb; color: white; animation: moveBox 3s ease-in-out infinite alternate; }
+.ball { position: absolute; left: 45%; top: 30px; width: 55px; height: 55px; border-radius: 50%; background: #ef4444; display: grid; place-items: center; color: white; font-size: 10px; animation: bounce 1.2s ease-in-out infinite; }
+.color-text { position: absolute; left: 35%; bottom: 35px; font-size: 2rem; font-weight: bold; animation: colorChange 2.5s ease-in-out infinite alternate; }
+@keyframes moveBox { from { transform: translateX(0); } to { transform: translateX(650px); } }
+@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(190px); } }
+@keyframes colorChange { 0% { transform: scale(1); opacity: .5; } 100% { transform: scale(1.25); opacity: 1; } }
+@media (max-width: 700px) { .moving-box { animation-duration: 4s; } }

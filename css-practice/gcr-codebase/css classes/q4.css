@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; color: #1e293b; }
+header, footer { text-align: center; padding: 25px; background: #dbeafe; }
+main { max-width: 850px; margin: auto; padding: 30px; }
+p { line-height: 1.6; } /* Element selector: styles every paragraph. */
+.highlight { background: #fef3c7; padding: 10px; } /* Class selector. */
+#special { color: #b91c1c; font-weight: bold; } /* ID selector. */
+a[target="_blank"] { padding: 10px; background: #dcfce7; } /* Attribute selector. */
+.combinators > div { border: 2px solid #93c5fd; padding: 15px; } /* Child combinator. */
+.combinators > div > p { font-weight: bold; } /* Direct child selector. */
+.combinators div + p { background: #e0e7ff; padding: 8px; } /* Adjacent sibling. */
+.combinators div ~ p { margin-left: 20px; } /* General sibling. */
+.combinators div p { color: #1d4ed8; } /* Descendant selector. */
