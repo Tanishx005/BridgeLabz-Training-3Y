@@ -1,0 +1,12 @@
+:root {
+  --bs-primary: #6f42c1;
+  --bs-primary-rgb: 111,66,193;
+  --bs-font-sans-serif: 'Inter', sans-serif;
+}
+body { font-family: var(--bs-font-sans-serif); background: #faf8ff; }
+h1, h2 { color: #4f2d89; }
+.btn-primary { --bs-btn-bg: #6f42c1; --bs-btn-border-color: #6f42c1; }
+.badge { background: #6f42c1; }
+.blog-card { transition: transform .25s ease; }
+.blog-card:hover { transform: translateY(-5px); }
+.card-img-top { height: 240px; object-fit: cover; }

@@ -1,0 +1,2 @@
+.pricing-card { transition: transform .25s ease, box-shadow .25s ease; }
+.pricing-card:hover { transform: translateY(-8px); }
