@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 40px; transition: background .2s, color .2s; }
+button { padding: 10px 18px; margin-right: 8px; cursor: pointer; }
+body.light-theme { background: #fff; color: #222; }
+body.dark-theme { background: #222; color: #f5f5f5; }
+body.blue-theme { background: #dceeff; color: #12345a; }

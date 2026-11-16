@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; max-width: 750px; margin: 40px auto; padding: 0 16px; }
+input { width: 100%; box-sizing: border-box; padding: 10px; margin: 10px 0 18px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+th { background: #eee; }
+[hidden] { display: none !important; }

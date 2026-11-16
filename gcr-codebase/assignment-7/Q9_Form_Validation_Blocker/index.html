@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submit Blocker and Live Errors</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form id="registrationForm" novalidate>
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text">
+  <small class="error" id="nameError"></small>
+
+  <label for="email">Email</label>
+  <input id="email" name="email" type="text">
+  <small class="error" id="emailError"></small>
+
+  <label for="password">Password</label>
+  <input id="password" name="password" type="password">
+  <small class="error" id="passwordError"></small>
+
+  <button type="submit">Submit</button>
+</form>
+<p id="successMessage" role="status"></p>
+</body>
+</html>

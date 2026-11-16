@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; max-width: 650px; margin: 40px auto; padding: 0 16px; }
+input { padding: 10px; min-width: 220px; }
+button { padding: 9px 12px; margin: 4px; cursor: pointer; }
+li { padding: 8px; border-bottom: 1px solid #ddd; }
+.product-name { margin-right: 12px; }
+.edit-input { padding: 6px; }
+#status { color: #287a3d; }

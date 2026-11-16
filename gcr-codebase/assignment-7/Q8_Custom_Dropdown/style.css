@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 40px; }
+.dropdown { position: relative; display: inline-block; }
+button { padding: 10px 16px; cursor: pointer; }
+.options { list-style: none; margin: 4px 0; padding: 4px; border: 1px solid #bbb; position: absolute; min-width: 180px; background: white; z-index: 2; }
+.options li button { width: 100%; text-align: left; border: 0; background: white; }
+.options li button:hover { background: #eee; }
+[hidden] { display: none !important; }

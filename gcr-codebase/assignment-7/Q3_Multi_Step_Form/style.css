@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
+.form-step { padding: 18px; border: 1px solid #ddd; border-radius: 8px; }
+label, input { display: block; margin: 10px 0; }
+input { padding: 9px; width: 95%; }
+button { padding: 9px 16px; margin: 12px 6px 0 0; }
+.error { color: #c62828; min-height: 18px; }
+[hidden] { display: none !important; }

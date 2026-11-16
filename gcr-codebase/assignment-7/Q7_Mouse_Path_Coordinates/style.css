@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; margin: 30px; }
+#trackingBox { width: 400px; height: 400px; max-width: 90vw; max-height: 90vw; position: relative; border: 2px solid #333; background: #f3f3f3; }
+#coordinates { font-weight: bold; }
+.red-dot { position: absolute; width: 10px; height: 10px; background: red; border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; }
